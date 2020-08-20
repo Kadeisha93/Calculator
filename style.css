@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+body{
+  background-image: url("calmCalc.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.wholeCalc{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.topNum{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+h1{
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(58,75,97);
+  font-size: 1.5em;
+}
+.wholeCalc{
+  height: 500px;
+  width: 50%;
+  margin: 5% 25% 5% 25%;
+}
+.topNum{
+  height: 27%;
+}
+
+#add, #subtract, #multiply, #divide{
+  height: 20%;
+  width: 20%;
+  border-radius: 10px;
+  border-color: rgb(102,118,138);
+  font-size: 2em;
+  margin: 5% 15% 5% 15%;
+  float: left;
+}
+#subtract, #divide{
+  margin left: 15%;
+}
+.bottom{
+  height: 60%;
+}
+
+#numOne, #numTwo, #result{
+  border: 3px solid rgb(102,118,138);
+  background: rgb(219,223,226);
+  height: 80%;
+  width: 25%;
+  margin: 2% 4% 2% 4%;
+  font-size: 3em;
+  text-align: center;
+  float: left;
+}
